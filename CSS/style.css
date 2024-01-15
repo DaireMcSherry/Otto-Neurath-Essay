@@ -27,6 +27,87 @@ h1, h2 {
     color: rgb(27, 27, 26);
 }
 
+
+/*-------------- INTRODUCTION ---------*/
+
+#intro{
+    width: 100%;
+    padding: 60px 0;
+    .container{
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+        .box{
+            max-width: 600px;
+            display: block;
+            .content-title{
+                font-size: 2.9rem;
+                color: #0000003a;
+                font-weight: 700;
+                margin-bottom: 2rem;
+                margin-top: 20px;
+                font-family: $secondary-font;
+                
+            }
+            .text{
+                color: #1A1A1A;
+                font-family: $primary-font;
+                padding-right: 2rem;
+            }
+            .source{
+                color: #616161;
+                text-decoration: none;
+            }&:hover{
+                color: #1A1A1A;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1160px){
+    #intro{
+        .container{
+            display: block;
+            width: 500px;
+            .box{
+                .content-title{
+                    font-size: 2rem;
+                    color: #0000003a;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    font-family: $secondary-font;
+                    
+                }
+                .text{
+                    color: #1A1A1A;
+                    font-family: $primary-font;
+                    padding-right: 0rem;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+                .source{
+                    color: #616161;
+                    text-decoration: none;
+                    font-size: 11px;
+                }&:hover{
+                    color: #1A1A1A;
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 548px){
+    #intro{
+        .container{
+            display: block;
+            width: 360px;
+    } 
+    }
 h1 {
     font-size: 5.653rem;
     margin-top: 5rem;
@@ -222,7 +303,7 @@ img {
     margin: 2em auto;
     padding: 0;
     max-width: 80%;
-    display: right block;
+    display: block;
 }
 
 
