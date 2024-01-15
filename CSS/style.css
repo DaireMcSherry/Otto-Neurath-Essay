@@ -1,11 +1,4 @@
-header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/otto neurath.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 
 
@@ -228,14 +221,14 @@ table, td {
 img {
     margin: 2em auto;
     padding: 0;
-    max-width: 100%;
+    max-width: 80%;
     display: inline-block;
 }
 
 
 .column {
   float: centre;
-  width: .00%;
+  width: 33.00%;
   padding: 4px;
 }
 
