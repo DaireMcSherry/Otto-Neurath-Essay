@@ -87,12 +87,7 @@ h2 {font-weight: normal;
 }
         
 
-h3, {
-    font-weight: normal;
-    color: #FF6545;
-    text-align: left;
-    font-size: 1.953em; 
-}
+h3, 
 
 
 
@@ -217,16 +212,39 @@ table, td {
     border: 2px solid rgb(72, 35, 0) ;
 }
 
-/*-- images --*/
+/*-------- IMAGES ------*/
+
+img {
+    margin: 2em auto;
+    padding: 0;
+    max-width: 100%;
+    display: inline-block;
+}
 
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 4px;
+}
 
-     img{
-        display:block;
-        margin:1em 0;
-        padding:0;
-        max-width:100%;
 
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.row {
+  display: row;
+  align-content: center;
 }
 
 
